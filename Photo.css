@@ -21,14 +21,6 @@
   object-position: 0 0;
 }
 
-@media screen and (max-width: 550px) {
-  .gallery div {
-    margin: 0;
-  }
-  .gallery {
-    padding: 0;
-  }
-}
 .gallery:hover img {
   opacity: 0.3;
   z-index: -1;
