@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "GothamSSm-XLight";
+  src: url("fonts/GothamSSm-XLight.eot");
+  src: url("fonts/GothamSSm-XLight.eot?#iefix") format("embedded-opentype"),
+    url("fonts/GothamSSm-XLight.ttf") format("truetype"),
+    url("fonts/GothamSSm-XLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "GothamSSm-XLight";
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  position: relative;
+  font-family: "GothamSSm-XLight";
+  font-size: 4em;
+  font-weight: 500;
+  z-index: 2;
+  margin: 0px;
+}
+.hposition{
+  top: 10%;
+}
+.wtf{
+ background-image: url("check/2.jpg");
+ animation: move 30s linear infinite;
+}
+
+.div__title {
+  display: flex;
+  min-height: 100vh;
+  padding: 8px 50px;
+
+  background-color: rgb(211, 204, 204);
+  background-image: url("background/0903.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+.article {
+  position: relative;
+  min-height: 100vh;
+  padding: 0px 50px;
+}
+.article2 {
+  position: relative;
+  min-height: 100vh;
+  padding: 0px 50px;
+}
+.article_div{
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+ 
+}
+.article_div2{
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+
+  z-index: -1;
+}
+.title_svoboda {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  align-self: center;
+  position: absolute;
+  top: 10px;
+  font-size: 100px;
+}
+.title_p {
+  position: absolute;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  align-self: center;
+  top: -110px;
+  align-self: center;
+  top: 350px;
+  font-size: 27px;
+}
+.list {
+  position: relative;
+  font-size: 2em;
+  font-weight: 300;
+  z-index: 2;
+}
+.whight{
+  color: rgb(255, 255, 255);
+}
+
+@keyframes move {
+  from { background-position: -1920px 100%, 0 0;}
+  to { background-position: 0 100%; }
+}
