@@ -15,6 +15,14 @@ body {
   margin: 0;
   padding: 0;
 }
+h1 {
+  position: relative;
+  font-family: "GothamSSm-XLight";
+  
+  font-weight: 500;
+  z-index: 2;
+  margin: 0px;
+}
 h3 {
   position: relative;
   font-family: "GothamSSm-XLight";
@@ -25,6 +33,9 @@ h3 {
 }
 .hposition{
   top: 10%;
+}
+.flexim{
+  display: flex;
 }
 .wtf{
  background-image: url("check/2.jpg");
@@ -70,8 +81,8 @@ h3 {
   color: rgb(0, 0, 0);
   align-self: center;
   position: absolute;
-  top: 10px;
-  font-size: 100px;
+  top: 3px;
+  font-size: 3em;
 }
 .title_p {
   position: absolute;
