@@ -108,8 +108,8 @@ h3 {
     font-size: 3em;
   }
   .title_p {
-    top: 21vh;
-    right: 2vh;
+    top: -20vh;
+    right: -1vh;
     font-size: 1em;
   }
   h3 {
@@ -117,6 +117,9 @@ h3 {
   }
   .list {
     font-size: 0.7em;
+  }
+  .article_div{
+    top: 0vh;
   }
 }
 @media screen and (max-height: 320px) {
@@ -124,8 +127,8 @@ h3 {
     font-size: 3em;
   }
   .title_p {
-    top: 33vh;
-    right: 86vh;
+    top: -5vh;
+    right: -1vh;
     font-size: 1em;
   }
   h3 {
@@ -133,5 +136,8 @@ h3 {
   }
   .list {
     font-size: 0.7em;
+  }
+  .article_div{
+    top: 0vh;
   }
 }
