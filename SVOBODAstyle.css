@@ -18,7 +18,7 @@ body {
 h1 {
   position: relative;
   font-family: "GothamSSm-XLight";
-  
+
   font-weight: 500;
   z-index: 2;
   margin: 0px;
@@ -32,21 +32,20 @@ h3 {
   margin: 0px;
   padding: 3vh;
 }
-.hposition{
+.hposition {
   top: 10%;
 }
-.flexim{
+.flexim {
   display: flex;
 }
-.backmovement{
- background-image: url("check/2.jpg");
- animation: move 30s linear infinite;
+.backmovement {
+  background-image: url("check/2.jpg");
+  animation: move 30s linear infinite;
 }
 
 .div__title {
   display: flex;
   min-height: 100vh;
-
 
   background-color: rgb(211, 204, 204);
   background-image: url("background/0903.png");
@@ -57,13 +56,9 @@ h3 {
 .article {
   position: relative;
   min-height: 100vh;
-
 }
 
-
-
-.article_div{
- 
+.article_div {
   position: relative;
   min-height: 100vh;
 
@@ -79,12 +74,12 @@ h3 {
   padding: 3vh;
 }
 .title_p {
-  position: absolute;
+  position: relative;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
   align-self: center;
-  top: 32vh;
-  right: 116vh;
+  top: -10vh;
+  right: -2vh;
   font-size: 2em;
   padding: 3vh;
 }
@@ -96,11 +91,47 @@ h3 {
   list-style-type: none;
   padding: 3vh;
 }
-.whight{
+.whight {
   color: rgb(255, 255, 255);
 }
 
 @keyframes move {
-  from { background-position: -3840px 100%, 0 0;}
-  to { background-position: 0 100%; }
+  from {
+    background-position: -3840px 100%, 0 0;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .title_svoboda {
+    font-size: 3em;
+  }
+  .title_p {
+    top: 21vh;
+    right: 2vh;
+    font-size: 1em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  .list {
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-height: 320px) {
+  .title_svoboda {
+    font-size: 3em;
+  }
+  .title_p {
+    top: 33vh;
+    right: 86vh;
+    font-size: 1em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  .list {
+    font-size: 0.7em;
+  }
 }
