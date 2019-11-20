@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+}
+.cup {
+  display: flex;
+  min-height: 100vh;
+
+  background-color: rgb(211, 204, 204);
+  background-image: url("background/0903.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0px 0px;
+  margin: 0px;
+}
+.dance2 {
+  background-image: url("CUPDANCE/0.gif");
+}
+.dance3 {
+  background-image: url("CUPDANCE/1.gif");
+}
+.dance4 {
+  background-image: url("CUPDANCE/2.gif");
+}
+.dance5 {
+  background-image: url("CUPDANCE/2.gif");
+}
+.dance6 {
+  background-image: url("CUPDANCE/4.gif");
+}
+.dance7 {
+  background-image: url("CUPDANCE/5.gif");
+}
+.dance8 {
+  background-image: url("CUPDANCE/6.gif");
+}
+.dance9 {
+  background-image: url("CUPDANCE/7.gif");
+}
+.dance10 {
+  background-image: url("CUPDANCE/8.gif");
+}
+.dance11 {
+  background-image: url("CUPDANCE/9.gif");
+}
+.dance12 {
+  background-image: url("CUPDANCE/10.gif");
+}
