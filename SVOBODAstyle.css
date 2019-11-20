@@ -7,7 +7,7 @@
   font-weight: normal;
   font-style: normal;
 }
- 
+
 * {
   font-family: "GothamSSm-XLight";
 }
@@ -94,6 +94,19 @@ h3 {
 .whight {
   color: rgb(255, 255, 255);
 }
+.black{
+  color: black;
+}
+.condiv{
+  font-size: 2em;
+  font-weight: 300;
+  padding: 3vh;
+  margin: 3vh;
+  position: fixed;
+  min-width: 25%;
+  min-height: 25%;
+}
+
 
 @keyframes move {
   from {
