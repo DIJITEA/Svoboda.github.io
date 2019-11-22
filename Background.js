@@ -1,9 +1,5 @@
 let CG = 1;
 let DG = 0;
-function alertd(){
-    alert("errosa");
-        }
-        setTimeout (alertd, 1000);
 
 function backchange(){
    CG = 1; // 1 
