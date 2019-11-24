@@ -39,8 +39,8 @@ h3 {
   display: flex;
 }
 .backmovement {
-  background-image: url("check/2.jpg");
-  animation: move 30s linear infinite;
+  background-image: url("check/1.png");
+  animation: move 100s linear infinite;
 }
 
 .div__title {
